@@ -11,4 +11,4 @@
 
 ## 使用教程
 
-具体的文档说明写在[个人博客](http://cyang.tech)。
+具体的文档说明写在[个人博客](http://cyang.tech/categories/%E6%A0%91%E8%8E%93%E6%B4%BE/)。
