@@ -1,3 +1,3 @@
 #!/bin/bash
 cd /home/pi/class/cpu_temp
-python Post_cpu_temp.py &
+python post_temp.py &
