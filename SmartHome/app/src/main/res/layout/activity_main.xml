@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="电子工程设计实践"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#E83F73"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="简易智能家居模拟"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#5282FF"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="摄像头监控数据:"
+        android:id="@+id/text_camera_data"
+        android:textSize="22sp"
+        android:textColor="#00ff00"
+        />
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="288dp"
+        android:id="@+id/camera_pic"
+        >
+    </WebView>
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="温度:  "-->
+            <!--android:id="@+id/text_temp"-->
+            <!--android:textSize="25sp"-->
+            <!--android:textColor="#00ff00"-->
+            <!--/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="0"-->
+            <!--android:gravity="center"-->
+            <!--android:textSize="25sp"-->
+            <!--android:textColor="#00ff00"-->
+            <!--android:layout_toRightOf="@id/text_temp"-->
+            <!--android:id="@+id/text_temp_data"-->
+            <!--/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="  ℃"-->
+            <!--android:textSize="25sp"-->
+            <!--android:layout_toRightOf="@id/text_temp_data"-->
+            <!--android:textColor="#00ff00"-->
+            <!--/>-->
+
+    <!--</RelativeLayout>-->
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="温度:  "-->
+            <!--android:id="@+id/text_hum"-->
+            <!--android:textSize="25sp"-->
+            <!--android:textColor="#00ff00"-->
+            <!--/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="0"-->
+            <!--android:gravity="center"-->
+            <!--android:textSize="25sp"-->
+            <!--android:textColor="#00ff00"-->
+            <!--android:layout_toRightOf="@id/text_hum"-->
+            <!--android:id="@+id/text_hum_data"-->
+            <!--/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="  %RH"-->
+            <!--android:textSize="25sp"-->
+            <!--android:layout_toRightOf="@id/text_hum_data"-->
+            <!--android:textColor="#00ff00"-->
+            <!--/>-->
+
+    <!--</RelativeLayout>-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/get_data"
+        android:text="获取数据"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_contorl_led"
+        android:text="更多信息"
+        />
+
+
+</LinearLayout>

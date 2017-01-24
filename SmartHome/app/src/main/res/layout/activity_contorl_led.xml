@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="当前状态:                "
+            android:textColor="#00ff00"
+            android:id="@+id/text_led_status"
+            android:textSize="25sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="无"
+            android:id="@+id/led_status"
+            android:textSize="25sp"
+            android:textColor="#ff00ff"
+            android:layout_alignRight="@id/text_led_status"
+            />
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取当前状态"
+        android:id="@+id/get_led_status"
+        />
+
+    <Switch
+        android:text="更改状态"
+        android:textSize="25sp"
+        android:textColor="#00ff00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch_led"
+        android:textOff="关闭"
+        android:textOn="开启"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/response_text"
+            />
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="温度:  "
+            android:id="@+id/text_temp_2"
+            android:textSize="25sp"
+            android:textColor="#A41AE8"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textColor="#3FE8C4"
+            android:layout_toRightOf="@id/text_temp_2"
+            android:id="@+id/text_temp_data_2"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  ℃"
+            android:textSize="25sp"
+            android:layout_toRightOf="@id/text_temp_data_2"
+            android:textColor="#5282FF"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="湿度:  "
+            android:id="@+id/text_hum_2"
+            android:textSize="25sp"
+            android:textColor="#A41AE8"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textColor="#3FE8C4"
+            android:layout_toRightOf="@id/text_hum_2"
+            android:id="@+id/text_hum_data_2"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  %RH"
+            android:textSize="25sp"
+            android:layout_toRightOf="@id/text_hum_data_2"
+            android:textColor="#5282FF"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CPU温度:  "
+        android:id="@+id/text_cpu"
+        android:textSize="25sp"
+        android:textColor="#A41AE8"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#3FE8C4"
+        android:layout_toRightOf="@id/text_cpu"
+        android:id="@+id/text_cpu_temp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  ℃"
+        android:textSize="25sp"
+        android:layout_toRightOf="@id/text_cpu_temp"
+        android:textColor="#5282FF"
+        />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GPU温度:  "
+            android:id="@+id/text_gpu"
+            android:textSize="25sp"
+            android:textColor="#A41AE8"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textColor="#3FE8C4"
+            android:layout_toRightOf="@id/text_gpu"
+            android:id="@+id/text_gpu_temp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  ℃"
+            android:textSize="25sp"
+            android:layout_toRightOf="@id/text_gpu_temp"
+            android:textColor="#5282FF"
+            />
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取温湿度信息"
+        android:id="@+id/get_sensor_status"
+        />
+
+
+</LinearLayout>
+
