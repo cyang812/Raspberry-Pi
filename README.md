@@ -8,9 +8,9 @@
 - 4、使用InstaPush以及HC-SR501红外人体传感器实现异常闯入推送消息到手机。
 - 5、SmartHome为配套的安卓手机源代码。
 
-![](https://github.com/cyang812/raw/master/Raspberry-Pi/1.png)
+![1](https://github.com/cyang812/Raspberry-Pi/raw/master/1.png)
 
-![](https://github.com/cyang812/raw/master/Raspberry-Pi/2.png)
+![2](https://github.com/cyang812/Raspberry-Pi/raw/master/2.png)
 
 ## 使用教程
 
